@@ -2,7 +2,7 @@
     "name": "moment",
     "version": "2.0.0",
     "description": "Parse, manipulate, and display dates.",
-    "main": "moment.js",
+    "main": "moment",
     "repository": {
         "type": "git",
         "url": "git://github.com/ecomfe/dep-moment.git"
