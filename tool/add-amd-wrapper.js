@@ -15,8 +15,8 @@ function updateFiles() {
 }
 
 function addAMDWrapper( file ) {
-    var tplHeader = '// AMD Wrapper Header\ndefine(function(require, exports, module) {\n\n';
-    var tplFooter = '\n// AMD Wrapper Footer\n});\n';
+    var tplHeader = '// Wrapper Header\ndefine(function(require, exports, module) {\n\n';
+    var tplFooter = '\n// Wrapper Footer\n});\n';
     var str = fs.readFileSync( file, {
         encoding: 'UTF-8'
     });

@@ -1,4 +1,4 @@
-// AMD Wrapper Header
+// Wrapper Header
 define(function(require, exports, module) {
 
 // moment.js language configuration
@@ -84,5 +84,5 @@ require('../moment').lang('tr', {
     }
 });
 
-// AMD Wrapper Footer
+// Wrapper Footer
 });
