@@ -1,4 +1,4 @@
-// AMD Wrapper Header
+// Wrapper Header
 define(function(require, exports, module) {
 
 // moment.js
@@ -1403,5 +1403,5 @@ define(function(require, exports, module) {
     }
 }).call(this);
 
-// AMD Wrapper Footer
+// Wrapper Footer
 });
